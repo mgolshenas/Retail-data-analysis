@@ -4,14 +4,14 @@ import os
 
 # 1. Database Configuration Parameters
 db_user = 'postgres'
-db_password = 'Min.2019'  # Change this to your PostgreSQL password
+db_password = 'password'  
 db_host = 'localhost'
 db_port = '5432'
 db_name = 'Retail_analytics'
 
 # 2. Locate the Raw Data File
 # Put your downloaded dataset in the same folder as this script
-raw_file = r"C:\Users\M\Downloads\Ecommerce_Data.csv"
+raw_file = r"C:\...\Ecommerce_Data.csv"
 
 if not os.path.exists(raw_file):
     print(f"Error: Could not find '{raw_file}' in this directory.")
